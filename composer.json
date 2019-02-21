@@ -1,0 +1,21 @@
+{
+    "name": "xavier/xav-model",
+    "description": "适用于swoole的DB操作库",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Xavier Yang",
+            "email": "499873958@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-swoole": ">=4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xavier\\" : "src/"
+        },
+        "files": ["src/helper.php"]
+    }
+}
